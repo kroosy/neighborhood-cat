@@ -4,6 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "db-pull": "prisma db pull",
     "generate": "prisma generate"
   },
   "dependencies": {

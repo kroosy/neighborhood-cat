@@ -1,5 +1,5 @@
-import { RiSearchFill } from "react-icons/ri";
+import { FaSearch } from "react-icons/fa";
 
-export default function HomeIcon() {
-  return <RiSearchFill className="w-7 h-7" />;
+export default function SearchFillIcon() {
+  return <FaSearch className="w-7 h-7" />;
 }

@@ -1,5 +1,5 @@
-import { CgProfile } from "react-icons/cg";
+import { IoPersonCircleOutline } from "react-icons/io5";
 
 export default function ProfileIcon() {
-  return <CgProfile className="w-7 h-7" />;
+  return <IoPersonCircleOutline className="w-7 h-7" />;
 }

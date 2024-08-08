@@ -7,3 +7,4 @@ export { default as UploadFillIcon } from "./UploadFillIcon";
 export { default as CatIcon } from "./CatIcon";
 export { default as CatFillIcon } from "./CatFillIcon";
 export { default as ProfileIcon } from "./ProfileIcon";
+export { default as ProfileFillIcon } from "./ProfileFillIcon";

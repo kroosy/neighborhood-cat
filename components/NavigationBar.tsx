@@ -11,6 +11,7 @@ import {
   CatIcon,
   CatFillIcon,
   ProfileIcon,
+  ProfileFillIcon,
 } from "./ui/icons/navigation";
 import { usePathname } from "next/navigation";
 
@@ -19,7 +20,7 @@ const menu = [
   { href: "/search", icon: <SearchIcon />, clickedIcon: <SearchFillIcon /> },
   { href: "/upload", icon: <UploadIcon />, clickedIcon: <UploadFillIcon /> },
   { href: "/cats", icon: <CatIcon />, clickedIcon: <CatFillIcon /> },
-  { href: "/profile", icon: <ProfileIcon />, clickedIcon: <ProfileIcon /> },
+  { href: "/profile", icon: <ProfileIcon />, clickedIcon: <ProfileFillIcon /> },
 ];
 
 export default function NavigationBar() {

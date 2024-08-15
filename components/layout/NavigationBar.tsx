@@ -16,7 +16,7 @@ import {
 import { usePathname } from "next/navigation";
 
 const menu = [
-  { href: "/", icon: <HomeIcon />, clickedIcon: <HomeFillIcon /> },
+  { href: "/main", icon: <HomeIcon />, clickedIcon: <HomeFillIcon /> },
   { href: "/search", icon: <SearchIcon />, clickedIcon: <SearchFillIcon /> },
   { href: "/upload", icon: <UploadIcon />, clickedIcon: <UploadFillIcon /> },
   { href: "/cats", icon: <CatIcon />, clickedIcon: <CatFillIcon /> },

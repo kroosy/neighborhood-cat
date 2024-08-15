@@ -12,7 +12,7 @@ import {
   CatFillIcon,
   ProfileIcon,
   ProfileFillIcon,
-} from "./ui/icons/navigation";
+} from "../ui/icons/navigation";
 import { usePathname } from "next/navigation";
 
 const menu = [

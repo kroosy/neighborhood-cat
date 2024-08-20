@@ -1,5 +1,5 @@
-import { FaSearch } from "react-icons/fa";
+import { IoSearchSharp } from "react-icons/io5";
 
 export default function SearchFillIcon() {
-  return <FaSearch className="w-7 h-7" />;
+  return <IoSearchSharp className="w-7 h-7" />;
 }

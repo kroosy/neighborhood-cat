@@ -1,5 +1,5 @@
-import { RiSearchLine } from "react-icons/ri";
+import { IoSearchOutline } from "react-icons/io5";
 
 export default function SearchIcon() {
-  return <RiSearchLine className="w-7 h-7" />;
+  return <IoSearchOutline className="w-7 h-7" />;
 }

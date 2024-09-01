@@ -64,7 +64,7 @@ body {
   min-height: 100vh;
 }
 
-body {
+#main {
   max-width: 600px;
   margin: 0 auto;
   background-color: white;
@@ -87,5 +87,10 @@ body {
 
   .h-safe-area {
     @apply h-[calc(env(safe-area-inset-bottom)+56px)];
+  }
+
+  .max-width-style {
+    max-width: 600px;
+    margin: 0 auto;
   }
 }
